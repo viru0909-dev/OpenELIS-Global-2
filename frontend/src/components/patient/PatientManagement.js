@@ -54,7 +54,7 @@ function PatientManagement() {
       <br></br>
       <div className="orderLegendBody">
         <Grid>
-          <Column lg={4} md={3} sm={2}>
+          <Column lg={4} md={3} sm={4}>
             <Button
               id="searchPatient"
               kind={searchPatientTab.kind}
@@ -66,7 +66,7 @@ function PatientManagement() {
               />
             </Button>
           </Column>
-          <Column lg={4} md={3} sm={2}>
+          <Column lg={4} md={3} sm={4}>
             <Button
               id="newPatient"
               kind={newPatientTab.kind}
